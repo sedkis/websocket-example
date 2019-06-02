@@ -1,21 +1,17 @@
 {
-  "name": "right-now",
+  "name": "websocket-example",
   "version": "1.0.0",
-  "description": "Real-time application is real-time.",
+  "description": "Websocket example server.",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/nodemon/bin/nodemon.js server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/nodemon/bin/nodemon.js server.js"
   },
-  "author": "Turing School",
+  "author": "Sedky A",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.12.3",
-    "socket.io": "^1.3.5",
     "ws": "^7.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.3.7"
   }
 }
-
