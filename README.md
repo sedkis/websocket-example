@@ -12,4 +12,4 @@ npm start
 ```
 
 and your server is ready to accept connections at "ws://localhost:3001"
-it will emit messages to all clients except requesting.
+it will emit messages to all clients except the requesting client.
